@@ -22,7 +22,7 @@ body {
 }
 
 h2 {
-	font-family: 'Alegreya', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 250%;
 	font-weight: 700;
 	text-align: center;
@@ -31,6 +31,7 @@ h2 {
 }
 
 h3 {
+    font-family: 'Alegreya Sans', sans-serif;
 	font-size: 175%;
 	line-height: 155%;
 	padding: 5% 0;
@@ -61,11 +62,6 @@ img {
 .size {
 	height: 100%;
 	width: 100%;
-}
-
-#fixed {
-    height: 500px;
-    width: auto;
 }
 
 #logo{
@@ -99,8 +95,9 @@ ul {
 }
 
 nav ul li {
-	font-family: 'Alegreya', sans-serif;
-	font-size: 150%;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 170%;
+    font-weight: 600;
 	display: inline-block;
 	float: left;
 	padding: 10px;
@@ -168,8 +165,16 @@ aside {
 	width: 100%;
 	float: left;
 	text-align: center;
-
 }
+
+
+
+.onewhole img{
+    height: 600px;
+    width: auto;
+    padding: 2%;
+}
+
 .about {
 	background-color: #A2B1C1;
 }
@@ -224,8 +229,7 @@ footer.second p {
 	text-align: justify;
 }
 
-.paneBody h2 {
-    font-family: 'Alegreya', sans-serif;
+.paneBody h2 {;
 	font-size: 250%;
 	font-weight: 600;
 	text-align: center;
