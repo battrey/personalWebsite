@@ -137,7 +137,7 @@ article {
 	float: left;
 	margin: 0 auto;
 	width: 50%;
-	height: auto;
+	height: 485px;
 }
 
 .pane {
@@ -148,7 +148,7 @@ aside {
 	float: right;
 	margin: 0 auto;
 	width: 50%;
-	height: auto;
+	height: 485px;
 }
 
 .pane2 {
@@ -181,6 +181,7 @@ aside {
 footer {
 	background-color: #6991AC;
 	width: 100%;
+    height: auto;
 }
 
 .social {
@@ -205,7 +206,7 @@ footer p{
   font-family: 'Alegreya Sans', sans-serif;  
 }
 footer.second{
-	border-top: 1px solid #AADCD2;
+	border-top: 5px solid #AADCD2;
 	background-color: #B0E0E6;
 	max-height: 55px;
 	text-align: center;
